@@ -1,0 +1,81 @@
+:root{
+    --rosa: #FFD0CC;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.inicio{
+    background-color: var(--rosa);
+    height: 20px;
+}
+
+.nav-bar{
+    background-image: url('../image/marmori.png');
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-bar ul{
+    display: flex;
+    width: 25%;
+}
+
+
+.perfil{
+    border-radius: 30px;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+}
+
+.buscar{
+    align-items: center;
+    display: flex; 
+    width: 50%;
+}
+
+.busque{
+    border-radius: 5px;
+    padding: 2px;
+    width: 400px;
+}
+
+.botao{
+    border-radius: 0px;
+}
+
+.login{
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    color: black;
+    text-decoration: none;
+
+}
+
+.opcoes{
+    display: flex;
+    
+}
+
+.imagem-principal{
+    padding: 20px 0px;
+}
+
+.sombra{
+    padding: 10px;
+}
+
+.info{
+    display: flex;
+    background-image: url('../image/marmori.png');
+    justify-content: center;
+}
+
+.presente{
+    padding: 0px 50px;
+}
